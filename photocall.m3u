@@ -1,19 +1,23 @@
 #EXTM3U refresh="12"
-# <=================== PHOTOCALL.TV ALL CHANNELS (117) ===================>
-#EXTINF:-1 tvg-name="Photocall TV Online headrer" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Photocall-TV-Online-headrer.webp" group-title="España",Photocall TV Online headrer
-#main|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
-#EXTINF:-1 tvg-name="Photocall TV Online headrer" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Photocall-TV-Online-headrer.webp" group-title="España",Photocall TV Online headrer
-https://photocalltv.online/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
-#EXTINF:-1 tvg-name="The-1st-Catalonia" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/The-1st-Catalonia.webp" group-title="España",The-1st-Catalonia
+# <=================== PHOTOCALL.TV MULTI-SOURCE PLAYLIST ===================>
+#EXTINF:-1 tvg-name="The-1st-Catalonia (Fuente 1)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/The-1st-Catalonia.webp" group-title="España",The-1st-Catalonia (Fuente 1)
 https://ztnr.rtve.es/ztnr/1688885.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
-#EXTINF:-1 tvg-name="TRECE TV" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/TRECE-TV.webp" group-title="España",TRECE TV
+#EXTINF:-1 tvg-name="The-1st-Catalonia (Fuente 2)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/The-1st-Catalonia.webp" group-title="España",The-1st-Catalonia (Fuente 2)
+https://rtvelivestream.rtve.es/rtvesec/la2/la2_main_dvr.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
+#EXTINF:-1 tvg-name="TRECE TV (Fuente 1)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/TRECE-TV.webp" group-title="España",TRECE TV (Fuente 1)
 https://ztnr.rtve.es/ztnr/1688877.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
+#EXTINF:-1 tvg-name="TRECE TV (Fuente 2)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/TRECE-TV.webp" group-title="España",TRECE TV (Fuente 2)
+https://rtvelivestream.rtve.es/rtvesec/la1/la1_main_dvr.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
 #EXTINF:-1 tvg-name="El Toro TV" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/El-Toro-TV.webp" group-title="España",El Toro TV
 https://live-edge-ff-1.cdn.enetres.net/091DB7AFBD77442B9BA2F141DCC182F5021/liveld/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
-#EXTINF:-1 tvg-name="TVE-24H" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/TVE-24H.webp" group-title="España",TVE-24H
+#EXTINF:-1 tvg-name="TVE-24H (Fuente 1)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/TVE-24H.webp" group-title="España",TVE-24H (Fuente 1)
 https://streaming-1.eltorotv.com/lb0/eltorotv-streaming-web/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
-#EXTINF:-1 tvg-name="Euronews en Español" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Euronews-en-Espanol.webp" group-title="España",Euronews en Español
+#EXTINF:-1 tvg-name="TVE-24H (Fuente 2)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/TVE-24H.webp" group-title="España",TVE-24H (Fuente 2)
+https://edge-nodo-002.streaming.hitcloser.net/eltorotv-streaming-web/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
+#EXTINF:-1 tvg-name="Euronews en Español (Fuente 1)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Euronews-en-Espanol.webp" group-title="España",Euronews en Español (Fuente 1)
 https://ztnr.rtve.es/ztnr/1694255.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
+#EXTINF:-1 tvg-name="Euronews en Español (Fuente 2)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Euronews-en-Espanol.webp" group-title="España",Euronews en Español (Fuente 2)
+https://rtvelivestream.rtve.es/rtvesec/24h/24h_main_dvr.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
 #EXTINF:-1 tvg-name="Disney" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Disney.webp" group-title="España",Disney
 https://euronews-live-spa-es.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6571/bitok/eyJzdGlkIjoiMDA0YjY0NTMtYjY2MC00ZTZkLTlkNzEtMTk3YTM3ZDZhZWIxIiwibWt0IjoiZXMiLCJjaCI6NjU3MSwicHRmIjoxfQ==/26034/euronews-es.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
 #EXTINF:-1 tvg-name="Canal San Roque" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Canal-San-Roque.webp" group-title="España",Canal San Roque
@@ -44,56 +48,84 @@ https://media2.streambrothers.com:1936/8140/8140/.m3u8|User-Agent=Mozilla/5.0 (W
 https://liveingesta318.cdnmedia.tv/101weblive/smil:sol.smil/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
 #EXTINF:-1 tvg-name="Real-Madrid-TV" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Real-Madrid-TV.webp" group-title="España",Real-Madrid-TV
 https://hola-play-2108fd06-86d4-44e8-9867-c35b4895a1c1-es.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6433/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
-#EXTINF:-1 tvg-name="OndaMadrid" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/OndaMadrid.webp" group-title="España",OndaMadrid
+#EXTINF:-1 tvg-name="OndaMadrid (Fuente 1)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/OndaMadrid.webp" group-title="España",OndaMadrid (Fuente 1)
 https://rmtv.akamaized.net/hls/live/2043153/rmtv-es-web/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
+#EXTINF:-1 tvg-name="OndaMadrid (Fuente 2)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/OndaMadrid.webp" group-title="España",OndaMadrid (Fuente 2)
+https://rmtv.akamaized.net/hls/live/2043154/rmtv-en-web/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
 #EXTINF:-1 tvg-name="Boing" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Boing.webp" group-title="España",Boing
 https://tvradio-1-23-secure2.akamaized.net/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
-#EXTINF:-1 tvg-name="Divinity-PC" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Divinity-PC.webp" group-title="España",Divinity-PC
+#EXTINF:-1 tvg-name="Divinity-PC (Fuente 1)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Divinity-PC.webp" group-title="España",Divinity-PC (Fuente 1)
 https://ztnr.rtve.es/ztnr/1688877.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
-#EXTINF:-1 tvg-name="Be Mad" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Be-Mad.webp" group-title="España",Be Mad
+#EXTINF:-1 tvg-name="Divinity-PC (Fuente 2)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Divinity-PC.webp" group-title="España",Divinity-PC (Fuente 2)
+https://rtvelivestream.rtve.es/rtvesec/la1/la1_main_dvr.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
+#EXTINF:-1 tvg-name="Be Mad (Fuente 1)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Be-Mad.webp" group-title="España",Be Mad (Fuente 1)
 https://ztnr.rtve.es/ztnr/1688877.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
-#EXTINF:-1 tvg-name="Energy" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Energy.webp" group-title="España",Energy
+#EXTINF:-1 tvg-name="Be Mad (Fuente 2)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Be-Mad.webp" group-title="España",Be Mad (Fuente 2)
+https://rtvelivestream.rtve.es/rtvesec/la1/la1_main_dvr.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
+#EXTINF:-1 tvg-name="Energy (Fuente 1)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Energy.webp" group-title="España",Energy (Fuente 1)
 https://ztnr.rtve.es/ztnr/1688877.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
-#EXTINF:-1 tvg-name="Telecinco-PC" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Telecinco-PC.webp" group-title="España",Telecinco-PC
+#EXTINF:-1 tvg-name="Energy (Fuente 2)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Energy.webp" group-title="España",Energy (Fuente 2)
+https://rtvelivestream.rtve.es/rtvesec/la1/la1_main_dvr.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
+#EXTINF:-1 tvg-name="Telecinco-PC (Fuente 1)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Telecinco-PC.webp" group-title="España",Telecinco-PC (Fuente 1)
 https://ztnr.rtve.es/ztnr/1688877.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
-#EXTINF:-1 tvg-name="District-TV" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/District-TV.webp" group-title="España",District-TV
+#EXTINF:-1 tvg-name="Telecinco-PC (Fuente 2)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Telecinco-PC.webp" group-title="España",Telecinco-PC (Fuente 2)
+https://rtvelivestream.rtve.es/rtvesec/la1/la1_main_dvr.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
+#EXTINF:-1 tvg-name="District-TV (Fuente 1)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/District-TV.webp" group-title="España",District-TV (Fuente 1)
 https://ztnr.rtve.es/ztnr/1688877.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
+#EXTINF:-1 tvg-name="District-TV (Fuente 2)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/District-TV.webp" group-title="España",District-TV (Fuente 2)
+https://rtvelivestream.rtve.es/rtvesec/la1/la1_main_dvr.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
 #EXTINF:-1 tvg-name="EsTuTele" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/EsTuTele.webp" group-title="España",EsTuTele
 https://live.emitstream.com/hls/3mn7wpcv7hbmxmdzaxap/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
 #EXTINF:-1 tvg-name="Negocios TV" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Negocios-TV.webp" group-title="España",Negocios TV
 https://stream-us-east-1.getpublica.com/playlist.m3u8?cb=%5BCACHEBUSTER%5D&network_id=16148&live=1&avod=0&hls_marker=1&pod_duration=120&position=prerrol&app_bundle=com.streamingconnect.viva&app_domain=mirametv.live&content_channel=estutele&content_genre=tv_broadcaster&content_network=streamingconnect&content_rating=TV-G&gdpr=%5BGDPR%5D&ifa_type=%5BIFA_TYPE%5D&app_category=linear_tv&content_cat=IAB1&us_privacy=%5BUS_PRIVACY%5D&content_id=mirametv_live&min_ad_duration=6&max_ad_duration=120&ssai_enabled=1|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
 #EXTINF:-1 tvg-name="FDF" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/FDF.webp" group-title="España",FDF
 https://streaming013.gestec-video.com/hls/negociostv.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
-#EXTINF:-1 tvg-name="Todo Cine" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Todo-Cine.webp" group-title="España",Todo Cine
+#EXTINF:-1 tvg-name="Todo Cine (Fuente 1)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Todo-Cine.webp" group-title="España",Todo Cine (Fuente 1)
 https://ztnr.rtve.es/ztnr/1688877.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
-#EXTINF:-1 tvg-name="France-24" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/France-24.webp" group-title="España",France-24
+#EXTINF:-1 tvg-name="Todo Cine (Fuente 2)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Todo-Cine.webp" group-title="España",Todo Cine (Fuente 2)
+https://rtvelivestream.rtve.es/rtvesec/la1/la1_main_dvr.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
+#EXTINF:-1 tvg-name="France-24 (Fuente 1)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/France-24.webp" group-title="España",France-24 (Fuente 1)
 https://ztnr.rtve.es/ztnr/1688877.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
-#EXTINF:-1 tvg-name="2-TVE" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/2-TVE.webp" group-title="España",2-TVE
+#EXTINF:-1 tvg-name="France-24 (Fuente 2)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/France-24.webp" group-title="España",France-24 (Fuente 2)
+https://rtvelivestream.rtve.es/rtvesec/la1/la1_main_dvr.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
+#EXTINF:-1 tvg-name="2-TVE (Fuente 1)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/2-TVE.webp" group-title="España",2-TVE (Fuente 1)
 https://ztnr.rtve.es/ztnr/1688877.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
+#EXTINF:-1 tvg-name="2-TVE (Fuente 2)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/2-TVE.webp" group-title="España",2-TVE (Fuente 2)
+https://rtvelivestream.rtve.es/rtvesec/la1/la1_main_dvr.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
 #EXTINF:-1 tvg-name="Hispan-TV" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Hispan-TV.webp" group-title="España",Hispan-TV
 https://ztnr.rtve.es/ztnr/5468585.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
 #EXTINF:-1 tvg-name="The-1st-Catalonia" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/The-1st-Catalonia.webp" group-title="España",The-1st-Catalonia
 https://live.presstv.ir/hls/hispantv_5_482/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
 #EXTINF:-1 tvg-name="DW-in-Spanish" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/DW-in-Spanish.webp" group-title="España",DW-in-Spanish
 https://ztnr.rtve.es/ztnr/5190066.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
-#EXTINF:-1 tvg-name="Sun-Music" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Sun-Music.webp" group-title="España",Sun-Music
+#EXTINF:-1 tvg-name="Sun-Music (Fuente 1)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Sun-Music.webp" group-title="España",Sun-Music (Fuente 1)
 https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
+#EXTINF:-1 tvg-name="Sun-Music (Fuente 2)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Sun-Music.webp" group-title="España",Sun-Music (Fuente 2)
+https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
 #EXTINF:-1 tvg-name="8TV Mediterráneo" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/8TV-Mediterraneo.webp" group-title="España",8TV Mediterráneo
 https://d2glyu450vvghm.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-21u4g5cjglv02/sm.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
 #EXTINF:-1 tvg-name="Esport3" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Esport3.webp" group-title="España",Esport3
 https://s.emisoras.tv:8081/sierradecadiz/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
-#EXTINF:-1 tvg-name="Teledeporte" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Teledeporte.webp" group-title="España",Teledeporte
+#EXTINF:-1 tvg-name="Teledeporte (Fuente 1)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Teledeporte.webp" group-title="España",Teledeporte (Fuente 1)
 https://directes-tv-cat.3catdirectes.cat/live-origin/esport3-hls/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
-#EXTINF:-1 tvg-name="La Otra" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/La-Otra.webp" group-title="España",La Otra
+#EXTINF:-1 tvg-name="Teledeporte (Fuente 2)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Teledeporte.webp" group-title="España",Teledeporte (Fuente 2)
+https://directes-tv-es.3catdirectes.cat/live-origin/esport3-hls/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
+#EXTINF:-1 tvg-name="La Otra (Fuente 1)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/La-Otra.webp" group-title="España",La Otra (Fuente 1)
 https://ztnr.rtve.es/ztnr/1712295.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
+#EXTINF:-1 tvg-name="La Otra (Fuente 2)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/La-Otra.webp" group-title="España",La Otra (Fuente 2)
+https://rtvelivestream.rtve.es/rtvesec/tdp/tdp_main.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
 #EXTINF:-1 tvg-name="Clan Internacional" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Clan-Internacional.webp" group-title="España",Clan Internacional
 https://laotra-1-23-secure2.akamaized.net/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
-#EXTINF:-1 tvg-name="Telemadrid" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Telemadrid.webp" group-title="España",Telemadrid
+#EXTINF:-1 tvg-name="Telemadrid (Fuente 1)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Telemadrid.webp" group-title="España",Telemadrid (Fuente 1)
 https://ztnr.rtve.es/ztnr/5466990.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
+#EXTINF:-1 tvg-name="Telemadrid (Fuente 2)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Telemadrid.webp" group-title="España",Telemadrid (Fuente 2)
+https://rtvelivestream.rtve.es/rtvesec/clan/clan_main_dvr.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
 #EXTINF:-1 tvg-name="Cuatro" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Cuatro.webp" group-title="España",Cuatro
 https://new-international-23-secure2.akamaized.net/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
-#EXTINF:-1 tvg-name="El País TV" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/El-Pais-TV.webp" group-title="España",El País TV
+#EXTINF:-1 tvg-name="El País TV (Fuente 1)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/El-Pais-TV.webp" group-title="España",El País TV (Fuente 1)
 https://ztnr.rtve.es/ztnr/1688877.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
+#EXTINF:-1 tvg-name="El País TV (Fuente 2)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/El-Pais-TV.webp" group-title="España",El País TV (Fuente 2)
+https://rtvelivestream.rtve.es/rtvesec/la1/la1_main_dvr.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
 #EXTINF:-1 tvg-name="El Confidencial TV" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/El-Confidencial-TV.webp" group-title="España",El Confidencial TV
 https://d2xqbi89ghm9hh.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-79fx3huimw4xc-ssai-prd/fast-channel-el-pais.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
 #EXTINF:-1 tvg-name="Canal 10 Empordà" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Canal-10-Emporda.webp" group-title="España",Canal 10 Empordà
@@ -102,54 +134,98 @@ https://daqnsnf5phf17.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a
 https://ventdelnord.tv:8080/escala/directe.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
 #EXTINF:-1 tvg-name="Canal 56" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Canal-56.webp" group-title="España",Canal 56
 https://nlb1-live.emitstream.com/hls/625csn5et2iszm9oze65/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
-#EXTINF:-1 tvg-name="GolTv" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/GolTv.webp" group-title="España",GolTv
+#EXTINF:-1 tvg-name="GolTv (Fuente 1)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/GolTv.webp" group-title="España",GolTv (Fuente 1)
 https://canalcoin.garjim.es/hls/directo.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
-#EXTINF:-1 tvg-name="La Sexta" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/La-Sexta.webp" group-title="España",La Sexta
-https://photocalltv.online/gol-tv/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
-#EXTINF:-1 tvg-name="Mega" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Mega.webp" group-title="España",Mega
+#EXTINF:-1 tvg-name="GolTv (Fuente 2)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/GolTv.webp" group-title="España",GolTv (Fuente 2)
+https://videos.canal56.com/directe/stream/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
+#EXTINF:-1 tvg-name="Mega (Fuente 1)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Mega.webp" group-title="España",Mega (Fuente 1)
 https://ztnr.rtve.es/ztnr/1688877.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
-#EXTINF:-1 tvg-name="Canal #0" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Canal-0.webp" group-title="España",Canal #0
+#EXTINF:-1 tvg-name="Mega (Fuente 2)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Mega.webp" group-title="España",Mega (Fuente 2)
+https://rtvelivestream.rtve.es/rtvesec/la1/la1_main_dvr.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
+#EXTINF:-1 tvg-name="Canal #0 (Fuente 1)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Canal-0.webp" group-title="España",Canal #0 (Fuente 1)
 https://ztnr.rtve.es/ztnr/1688877.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
-#EXTINF:-1 tvg-name="Cosmo" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Cosmo.webp" group-title="España",Cosmo
+#EXTINF:-1 tvg-name="Canal #0 (Fuente 2)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Canal-0.webp" group-title="España",Canal #0 (Fuente 2)
+https://rtvelivestream.rtve.es/rtvesec/la1/la1_main_dvr.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
+#EXTINF:-1 tvg-name="Cosmo (Fuente 1)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Cosmo.webp" group-title="España",Cosmo (Fuente 1)
 https://ztnr.rtve.es/ztnr/1688877.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
-#EXTINF:-1 tvg-name="beIN Sports" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/beIN-Sports.webp" group-title="España",beIN Sports
+#EXTINF:-1 tvg-name="Cosmo (Fuente 2)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Cosmo.webp" group-title="España",Cosmo (Fuente 2)
+https://rtvelivestream.rtve.es/rtvesec/la1/la1_main_dvr.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
+#EXTINF:-1 tvg-name="beIN Sports (Fuente 1)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/beIN-Sports.webp" group-title="España",beIN Sports (Fuente 1)
 https://ztnr.rtve.es/ztnr/1688877.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
-#EXTINF:-1 tvg-name="Love Nature" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Love-Nature.webp" group-title="España",Love Nature
+#EXTINF:-1 tvg-name="beIN Sports (Fuente 2)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/beIN-Sports.webp" group-title="España",beIN Sports (Fuente 2)
+https://example.com/backup/stream.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
+#EXTINF:-1 tvg-name="Love Nature (Fuente 1)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Love-Nature.webp" group-title="España",Love Nature (Fuente 1)
 https://ztnr.rtve.es/ztnr/1688877.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
-#EXTINF:-1 tvg-name="Runtime Comedia" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Runtime-Comedia.webp" group-title="España",Runtime Comedia
+#EXTINF:-1 tvg-name="Love Nature (Fuente 2)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Love-Nature.webp" group-title="España",Love Nature (Fuente 2)
+https://rtvelivestream.rtve.es/rtvesec/la1/la1_main_dvr.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
+#EXTINF:-1 tvg-name="Runtime Comedia (Fuente 1)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Runtime-Comedia.webp" group-title="España",Runtime Comedia (Fuente 1)
 https://ztnr.rtve.es/ztnr/1688877.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
-#EXTINF:-1 tvg-name="FreeTV Cine Familia" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/FreeTV-Cine-Familia.webp" group-title="España",FreeTV Cine Familia
+#EXTINF:-1 tvg-name="Runtime Comedia (Fuente 2)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Runtime-Comedia.webp" group-title="España",Runtime Comedia (Fuente 2)
+https://rtvelivestream.rtve.es/rtvesec/la1/la1_main_dvr.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
+#EXTINF:-1 tvg-name="FreeTV Cine Familia (Fuente 1)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/FreeTV-Cine-Familia.webp" group-title="España",FreeTV Cine Familia (Fuente 1)
 https://ztnr.rtve.es/ztnr/1688877.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
-#EXTINF:-1 tvg-name="Passions" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Passions.webp" group-title="España",Passions
+#EXTINF:-1 tvg-name="FreeTV Cine Familia (Fuente 2)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/FreeTV-Cine-Familia.webp" group-title="España",FreeTV Cine Familia (Fuente 2)
+https://rtvelivestream.rtve.es/rtvesec/la1/la1_main_dvr.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
+#EXTINF:-1 tvg-name="Passions (Fuente 1)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Passions.webp" group-title="España",Passions (Fuente 1)
 https://ztnr.rtve.es/ztnr/1688877.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
-#EXTINF:-1 tvg-name="Tlnovelas" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Tlnovelas.webp" group-title="España",Tlnovelas
+#EXTINF:-1 tvg-name="Passions (Fuente 2)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Passions.webp" group-title="España",Passions (Fuente 2)
+https://rtvelivestream.rtve.es/rtvesec/la1/la1_main_dvr.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
+#EXTINF:-1 tvg-name="Tlnovelas (Fuente 1)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Tlnovelas.webp" group-title="España",Tlnovelas (Fuente 1)
 https://ztnr.rtve.es/ztnr/1688877.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
-#EXTINF:-1 tvg-name="Antenna-3" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Antenna-3.webp" group-title="España",Antenna-3
+#EXTINF:-1 tvg-name="Tlnovelas (Fuente 2)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Tlnovelas.webp" group-title="España",Tlnovelas (Fuente 2)
+https://rtvelivestream.rtve.es/rtvesec/la1/la1_main_dvr.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
+#EXTINF:-1 tvg-name="Antenna-3 (Fuente 1)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Antenna-3.webp" group-title="España",Antenna-3 (Fuente 1)
 https://ztnr.rtve.es/ztnr/1688877.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
-#EXTINF:-1 tvg-name="TVE Internacional" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/TVE-Internacional.webp" group-title="España",TVE Internacional
+#EXTINF:-1 tvg-name="Antenna-3 (Fuente 2)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Antenna-3.webp" group-title="España",Antenna-3 (Fuente 2)
+https://rtvelivestream.rtve.es/rtvesec/la1/la1_main_dvr.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
+#EXTINF:-1 tvg-name="TVE Internacional (Fuente 1)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/TVE-Internacional.webp" group-title="España",TVE Internacional (Fuente 1)
 https://ztnr.rtve.es/ztnr/1688877.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
-#EXTINF:-1 tvg-name="Novelas Turcas" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Novelas-Turcas.webp" group-title="España",Novelas Turcas
+#EXTINF:-1 tvg-name="TVE Internacional (Fuente 2)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/TVE-Internacional.webp" group-title="España",TVE Internacional (Fuente 2)
+https://rtvelivestream.rtve.es/rtvesec/la1/la1_main_dvr.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
+#EXTINF:-1 tvg-name="Novelas Turcas (Fuente 1)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Novelas-Turcas.webp" group-title="España",Novelas Turcas (Fuente 1)
 https://ztnr.rtve.es/ztnr/1688877.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
-#EXTINF:-1 tvg-name="A3P-Multicine" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/A3P-Multicine.webp" group-title="España",A3P-Multicine
+#EXTINF:-1 tvg-name="Novelas Turcas (Fuente 2)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Novelas-Turcas.webp" group-title="España",Novelas Turcas (Fuente 2)
+https://rtvelivestream.rtve.es/rtvesec/la1/la1_main_dvr.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
+#EXTINF:-1 tvg-name="A3P-Multicine (Fuente 1)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/A3P-Multicine.webp" group-title="España",A3P-Multicine (Fuente 1)
 https://ztnr.rtve.es/ztnr/1688877.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
-#EXTINF:-1 tvg-name="MtMad-PC" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/MtMad-PC.webp" group-title="España",MtMad-PC
+#EXTINF:-1 tvg-name="A3P-Multicine (Fuente 2)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/A3P-Multicine.webp" group-title="España",A3P-Multicine (Fuente 2)
+https://rtvelivestream.rtve.es/rtvesec/la1/la1_main_dvr.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
+#EXTINF:-1 tvg-name="MtMad-PC (Fuente 1)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/MtMad-PC.webp" group-title="España",MtMad-PC (Fuente 1)
 https://ztnr.rtve.es/ztnr/1688877.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
-#EXTINF:-1 tvg-name="Canal Flooxer" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Canal-Flooxer.webp" group-title="España",Canal Flooxer
+#EXTINF:-1 tvg-name="MtMad-PC (Fuente 2)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/MtMad-PC.webp" group-title="España",MtMad-PC (Fuente 2)
+https://rtvelivestream.rtve.es/rtvesec/la1/la1_main_dvr.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
+#EXTINF:-1 tvg-name="Canal Flooxer (Fuente 1)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Canal-Flooxer.webp" group-title="España",Canal Flooxer (Fuente 1)
 https://ztnr.rtve.es/ztnr/1688877.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
-#EXTINF:-1 tvg-name="Atresplayer Clásicos" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Atresplayer-Clasicos.webp" group-title="España",Atresplayer Clásicos
+#EXTINF:-1 tvg-name="Canal Flooxer (Fuente 2)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Canal-Flooxer.webp" group-title="España",Canal Flooxer (Fuente 2)
+https://rtvelivestream.rtve.es/rtvesec/la1/la1_main_dvr.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
+#EXTINF:-1 tvg-name="Atresplayer Clásicos (Fuente 1)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Atresplayer-Clasicos.webp" group-title="España",Atresplayer Clásicos (Fuente 1)
 https://ztnr.rtve.es/ztnr/1688877.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
-#EXTINF:-1 tvg-name="El Club de la Comedia" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/El-Club-de-la-Comedia.webp" group-title="España",El Club de la Comedia
+#EXTINF:-1 tvg-name="Atresplayer Clásicos (Fuente 2)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Atresplayer-Clasicos.webp" group-title="España",Atresplayer Clásicos (Fuente 2)
+https://rtvelivestream.rtve.es/rtvesec/la1/la1_main_dvr.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
+#EXTINF:-1 tvg-name="El Club de la Comedia (Fuente 1)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/El-Club-de-la-Comedia.webp" group-title="España",El Club de la Comedia (Fuente 1)
 https://ztnr.rtve.es/ztnr/1688877.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
-#EXTINF:-1 tvg-name="Equipo de Investigación" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Equipo-de-Investigacion.webp" group-title="España",Equipo de Investigación
+#EXTINF:-1 tvg-name="El Club de la Comedia (Fuente 2)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/El-Club-de-la-Comedia.webp" group-title="España",El Club de la Comedia (Fuente 2)
+https://rtvelivestream.rtve.es/rtvesec/la1/la1_main_dvr.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
+#EXTINF:-1 tvg-name="Equipo de Investigación (Fuente 1)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Equipo-de-Investigacion.webp" group-title="España",Equipo de Investigación (Fuente 1)
 https://ztnr.rtve.es/ztnr/1688877.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
-#EXTINF:-1 tvg-name="AquiNoHayQuienViva" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/AquiNoHayQuienViva.webp" group-title="España",AquiNoHayQuienViva
+#EXTINF:-1 tvg-name="Equipo de Investigación (Fuente 2)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Equipo-de-Investigacion.webp" group-title="España",Equipo de Investigación (Fuente 2)
+https://rtvelivestream.rtve.es/rtvesec/la1/la1_main_dvr.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
+#EXTINF:-1 tvg-name="AquiNoHayQuienViva (Fuente 1)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/AquiNoHayQuienViva.webp" group-title="España",AquiNoHayQuienViva (Fuente 1)
 https://ztnr.rtve.es/ztnr/1688877.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
-#EXTINF:-1 tvg-name="Física o Química" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Fisica-o-Quimica.webp" group-title="España",Física o Química
+#EXTINF:-1 tvg-name="AquiNoHayQuienViva (Fuente 2)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/AquiNoHayQuienViva.webp" group-title="España",AquiNoHayQuienViva (Fuente 2)
+https://rtvelivestream.rtve.es/rtvesec/la1/la1_main_dvr.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
+#EXTINF:-1 tvg-name="Física o Química (Fuente 1)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Fisica-o-Quimica.webp" group-title="España",Física o Química (Fuente 1)
 https://ztnr.rtve.es/ztnr/1688877.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
-#EXTINF:-1 tvg-name="Cristiana TV" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Cristiana-TV.webp" group-title="España",Cristiana TV
+#EXTINF:-1 tvg-name="Física o Química (Fuente 2)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Fisica-o-Quimica.webp" group-title="España",Física o Química (Fuente 2)
+https://rtvelivestream.rtve.es/rtvesec/la1/la1_main_dvr.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
+#EXTINF:-1 tvg-name="Cristiana TV (Fuente 1)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Cristiana-TV.webp" group-title="España",Cristiana TV (Fuente 1)
 https://ztnr.rtve.es/ztnr/1688877.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
-#EXTINF:-1 tvg-name="Canal Málaga TV" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Canal-Malaga-TV.webp" group-title="España",Canal Málaga TV
+#EXTINF:-1 tvg-name="Cristiana TV (Fuente 2)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Cristiana-TV.webp" group-title="España",Cristiana TV (Fuente 2)
+https://rtvelivestream.rtve.es/rtvesec/la1/la1_main_dvr.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
+#EXTINF:-1 tvg-name="Canal Málaga TV (Fuente 1)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Canal-Malaga-TV.webp" group-title="España",Canal Málaga TV (Fuente 1)
 https://ztnr.rtve.es/ztnr/1688877.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
+#EXTINF:-1 tvg-name="Canal Málaga TV (Fuente 2)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Canal-Malaga-TV.webp" group-title="España",Canal Málaga TV (Fuente 2)
+https://rtvelivestream.rtve.es/rtvesec/la1/la1_main_dvr.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
 #EXTINF:-1 tvg-name="Canal Extremadura" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Canal-Extremadura.webp" group-title="España",Canal Extremadura
 https://canalmalaga-tv-live.flumotion.com/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
 #EXTINF:-1 tvg-name="RTV Diocesana Toledo" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/RTV-Diocesana-Toledo.webp" group-title="España",RTV Diocesana Toledo
@@ -160,77 +236,91 @@ https://live.emitstream.com/hls/5i3pxfuz4az356yu22ij/master.m3u8|User-Agent=Mozi
 https://canalcoin.garjim.es/hls/directo.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
 #EXTINF:-1 tvg-name="IB3 Ràdio" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/IB3.webp" group-title="España",IB3 Ràdio
 https://live.astreaming.es/Vinx/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
-#EXTINF:-1 tvg-name="Pequeradio TV" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Pequeradio-TV.webp" group-title="España",Pequeradio TV
+#EXTINF:-1 tvg-name="Pequeradio TV (Fuente 1)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Pequeradio-TV.webp" group-title="España",Pequeradio TV (Fuente 1)
 https://ztnr.rtve.es/ztnr/1688877.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
+#EXTINF:-1 tvg-name="Pequeradio TV (Fuente 2)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Pequeradio-TV.webp" group-title="España",Pequeradio TV (Fuente 2)
+https://rtvelivestream.rtve.es/rtvesec/la1/la1_main_dvr.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
 #EXTINF:-1 tvg-name="Talking-Tom" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Talking-Tom.webp" group-title="España",Talking-Tom
 https://canadaremar2.todostreaming.es/live/peque-pequetv.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
-#EXTINF:-1 tvg-name="Canal Parlamento" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Canal-Parlamento.webp" group-title="España",Canal Parlamento
+#EXTINF:-1 tvg-name="Canal Parlamento (Fuente 1)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Canal-Parlamento.webp" group-title="España",Canal Parlamento (Fuente 1)
 https://ztnr.rtve.es/ztnr/1688877.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
+#EXTINF:-1 tvg-name="Canal Parlamento (Fuente 2)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Canal-Parlamento.webp" group-title="España",Canal Parlamento (Fuente 2)
+https://rtvelivestream.rtve.es/rtvesec/la1/la1_main_dvr.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
 #EXTINF:-1 tvg-name="Canal Sur Andalucía" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Canal-Sur-Andalucia.webp" group-title="España",Canal Sur Andalucía
 https://congresodirecto.akamaized.net/hls/live/2037973/canalparlamento/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
-#EXTINF:-1 tvg-name="Andalucía Cocina" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Andalucia-Cocina.webp" group-title="España",Andalucía Cocina
+#EXTINF:-1 tvg-name="Andalucía Cocina (Fuente 1)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Andalucia-Cocina.webp" group-title="España",Andalucía Cocina (Fuente 1)
 https://live-24-canalsur.interactvty.pro/9bb0f4edcb8946e79f5017ddca6c02b0/26af5488cda642ed2eddd27a6328c93b9c03e9181b9d0a825147a7d978e69202.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
+#EXTINF:-1 tvg-name="Andalucía Cocina (Fuente 2)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Andalucia-Cocina.webp" group-title="España",Andalucía Cocina (Fuente 2)
+https://dfk2a268yviz9.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-ddiii1m6jt6of/CanalSurAndaluciaES.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
 #EXTINF:-1 tvg-name="Andalucía Turismo" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Andalucia-Turismo.webp" group-title="España",Andalucía Turismo
 https://cloud.fastchannel.es/mic/manifiest/hls/acocina/acocina.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
 #EXTINF:-1 tvg-name="101TV Málaga" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/101TV-Malaga.webp" group-title="España",101TV Málaga
 https://stream-us-east-1.getpublica.com/playlist.m3u8?&network_id=12685&live=1|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
 #EXTINF:-1 tvg-name="Onda Cádiz" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Onda-Cadiz.webp" group-title="España",Onda Cádiz
 https://liveingesta318.cdnmedia.tv/101televisionlive/smil:rtmp01.smil/playlist.m3u8?DVR|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
-#EXTINF:-1 tvg-name="M95 Marbella" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/M95-Marbella.webp" group-title="España",M95 Marbella
+#EXTINF:-1 tvg-name="M95 Marbella (Fuente 1)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/M95-Marbella.webp" group-title="España",M95 Marbella (Fuente 1)
 https://ondacadiztv.es:30443/octv/directo_multi/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
+#EXTINF:-1 tvg-name="M95 Marbella (Fuente 2)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/M95-Marbella.webp" group-title="España",M95 Marbella (Fuente 2)
+https://ondacadiztv.es:30443/octv/24h/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
 #EXTINF:-1 tvg-name="Huelva TV" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Huelva-TV.webp" group-title="España",Huelva TV
 https://limited2.todostreaming.es/live/m95-livestream.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
-#EXTINF:-1 tvg-name="PTV Málaga" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/PTV-Malaga.webp" group-title="España",PTV Málaga
+#EXTINF:-1 tvg-name="PTV Málaga (Fuente 1)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/PTV-Malaga.webp" group-title="España",PTV Málaga (Fuente 1)
 https://ztnr.rtve.es/ztnr/1688877.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
+#EXTINF:-1 tvg-name="PTV Málaga (Fuente 2)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/PTV-Malaga.webp" group-title="España",PTV Málaga (Fuente 2)
+https://rtvelivestream.rtve.es/rtvesec/la1/la1_main_dvr.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
 #EXTINF:-1 tvg-name="TNT HD" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/TNT-HD.webp" group-title="España",TNT HD
 https://streamer.zapitv.com/PTV-malaga/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
-#EXTINF:-1 tvg-name="Empordà TV" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/12/Emporda-TV.webp" group-title="España",Empordà TV
-https://photocalltv.online/ashes/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
-#EXTINF:-1 tvg-name="etv" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/12/etv.webp" group-title="España",etv
+#EXTINF:-1 tvg-name="etv (Fuente 1)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/12/etv.webp" group-title="España",etv (Fuente 1)
 https://video3.lhdserver.es/empordatv2/live.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
-#EXTINF:-1 tvg-name="Lleida TV" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/12/Lleida-TV.webp" group-title="España",Lleida TV
+#EXTINF:-1 tvg-name="etv (Fuente 2)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/12/etv.webp" group-title="España",etv (Fuente 2)
+https://rtvelivestream.rtve.es/rtvesec/la1/la1_main_dvr.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
+#EXTINF:-1 tvg-name="Lleida TV (Fuente 1)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/12/Lleida-TV.webp" group-title="España",Lleida TV (Fuente 1)
 https://liveingesta318.cdnmedia.tv/tvetvlive/smil:rtmp01.smil/playlist.m3u8?DVR|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
-#EXTINF:-1 tvg-name="TAC 12" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/12/TAC-12.webp" group-title="España",TAC 12
+#EXTINF:-1 tvg-name="Lleida TV (Fuente 2)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/12/Lleida-TV.webp" group-title="España",Lleida TV (Fuente 2)
+https://rtvelivestream.rtve.es/rtvesec/la1/la1_main_dvr.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
+#EXTINF:-1 tvg-name="TAC 12 (Fuente 1)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/12/TAC-12.webp" group-title="España",TAC 12 (Fuente 1)
 https://liveingesta318.cdnmedia.tv/lleidatvlive/smil:live.smil/playlist.m3u8?DVR|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
-#EXTINF:-1 tvg-name="TV Costa Brava" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/12/TV-Costa-Brava.webp" group-title="España",TV Costa Brava
+#EXTINF:-1 tvg-name="TAC 12 (Fuente 2)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/12/TAC-12.webp" group-title="España",TAC 12 (Fuente 2)
+https://rtvelivestream.rtve.es/rtvesec/la1/la1_main_dvr.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
+#EXTINF:-1 tvg-name="TV Costa Brava (Fuente 1)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/12/TV-Costa-Brava.webp" group-title="España",TV Costa Brava (Fuente 1)
 https://ingest1-video.streaming-pro.com/tac12_ABR/stream/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
-#EXTINF:-1 tvg-name="Canal Reus TV" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/12/Canal-Reus-TV.webp" group-title="España",Canal Reus TV
+#EXTINF:-1 tvg-name="TV Costa Brava (Fuente 2)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/12/TV-Costa-Brava.webp" group-title="España",TV Costa Brava (Fuente 2)
+https://rtvelivestream.rtve.es/rtvesec/la1/la1_main_dvr.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
+#EXTINF:-1 tvg-name="Canal Reus TV (Fuente 1)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/12/Canal-Reus-TV.webp" group-title="España",Canal Reus TV (Fuente 1)
 https://liveingesta318.cdnmedia.tv/costabravatvlive/smil:live.smil/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
-#EXTINF:-1 tvg-name="VOTV" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/12/VOTV.webp" group-title="España",VOTV
+#EXTINF:-1 tvg-name="Canal Reus TV (Fuente 2)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/12/Canal-Reus-TV.webp" group-title="España",Canal Reus TV (Fuente 2)
+https://rtvelivestream.rtve.es/rtvesec/la1/la1_main_dvr.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
+#EXTINF:-1 tvg-name="VOTV (Fuente 1)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/12/VOTV.webp" group-title="España",VOTV (Fuente 1)
 https://ingest2-video.streaming-pro.com/creus/stream/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
-#EXTINF:-1 tvg-name="Televisión online gratuita" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Television-online-gratuita.webp" group-title="España",Televisión online gratuita
+#EXTINF:-1 tvg-name="VOTV (Fuente 2)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/12/VOTV.webp" group-title="España",VOTV (Fuente 2)
+https://rtvelivestream.rtve.es/rtvesec/la1/la1_main_dvr.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
+#EXTINF:-1 tvg-name="Televisión online gratuita (Fuente 1)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Television-online-gratuita.webp" group-title="España",Televisión online gratuita (Fuente 1)
 https://ingest2-video.streaming-pro.com/votv/streaming_web/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
-#EXTINF:-1 tvg-name="fifa 2026" tvg-logo="https://photocalltv.online/wp-content/uploads/2026/06/fifa-2026.webp" group-title="Deportes",fifa 2026
-https://photocalltv.online/fifa-world-cup-2026/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://streamxhd.com/
-#EXTINF:-1 tvg-name="RMC Sport 1" tvg-logo="https://photocalltv.online/wp-content/uploads/2026/02/RMC-Sport-1.webp" group-title="Deportes",RMC Sport 1
-https://photocalltv.online/espana/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://streamxhd.com/
-#EXTINF:-1 tvg-name="LaLiga" tvg-logo="https://photocalltv.online/wp-content/uploads/2026/02/LaLiga.webp" group-title="Deportes",LaLiga
-https://photocalltv.online/deportes/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://streamxhd.com/
+#EXTINF:-1 tvg-name="Televisión online gratuita (Fuente 2)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Television-online-gratuita.webp" group-title="España",Televisión online gratuita (Fuente 2)
+https://rtvelivestream.rtve.es/rtvesec/la1/la1_main_dvr.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
 #EXTINF:-1 tvg-name="Total Rock UK" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/11/Total-Rock-UK.webp" group-title="Radio",Total Rock UK
 https://atres-live.ondacero.es/live/ondaceroeventos1/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
-#EXTINF:-1 tvg-name="Gold FM" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/11/Gold-FM.webp" group-title="Radio",Gold FM
-https://photocalltv.online/radio/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
-#EXTINF:-1 tvg-name="Euronews en Espanol" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Euronews-en-Espanol-1.webp" group-title="Mexico",Euronews en Espanol
-https://photocalltv.online/mexico/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
-#EXTINF:-1 tvg-name="Canal E" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Canal-E-1.webp" group-title="Argentina",Canal E
+#EXTINF:-1 tvg-name="Canal E (Fuente 1)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Canal-E-1.webp" group-title="Argentina",Canal E (Fuente 1)
 https://canalextremadura-live.flumotion.cloud/canalextremadura/live_all/playlist_dvr.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
-#EXTINF:-1 tvg-name="Discovery Kids" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Discovery-Kids.webp" group-title="Argentina",Discovery Kids
-https://photocalltv.online/argentina/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
-#EXTINF:-1 tvg-name="Cartoon Network Latino" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/11/Cartoon-Network-Latino.webp" group-title="America",Cartoon Network Latino
-https://photocalltv.online/america/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
-#EXTINF:-1 tvg-name="Nova Era TV" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Nova-Era-TV.webp" group-title="Brasil",Nova Era TV
+#EXTINF:-1 tvg-name="Canal E (Fuente 2)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Canal-E-1.webp" group-title="Argentina",Canal E (Fuente 2)
+https://mdstrm.com/live-stream-playlist/60b578b060947317de7b57ac.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
+#EXTINF:-1 tvg-name="Nova Era TV (Fuente 1)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Nova-Era-TV.webp" group-title="Brasil",Nova Era TV (Fuente 1)
 http://wz3.dnip.com.br:1935/novaeratv/novaeratv.sdp/live.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
-#EXTINF:-1 tvg-name="Canal 25" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Canal-25.webp" group-title="Brasil",Canal 25
-https://photocalltv.online/brasil/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
-#EXTINF:-1 tvg-name="beIN Sports" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/beinsports.webp" group-title="Colombia",beIN Sports
+#EXTINF:-1 tvg-name="Nova Era TV (Fuente 2)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Nova-Era-TV.webp" group-title="Brasil",Nova Era TV (Fuente 2)
+https://5ce9406b73c33.streamlock.net/ONFM/livestream/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
+#EXTINF:-1 tvg-name="Nova Era TV (Fuente 3)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/Nova-Era-TV.webp" group-title="Brasil",Nova Era TV (Fuente 3)
 https://d1cctoeg0n48w5.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-mnixw9wn5ugmv/TeledeporteES.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
-#EXTINF:-1 tvg-name="Clan TV" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/clan.webp" group-title="Colombia",Clan TV
-https://photocalltv.online/colombia/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
-#EXTINF:-1 tvg-name="ESPN2" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/espn2-1.webp" group-title="Ecuador",ESPN2
+#EXTINF:-1 tvg-name="beIN Sports (Fuente 1)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/beinsports.webp" group-title="Colombia",beIN Sports (Fuente 1)
 https://d1cctoeg0n48w5.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-mnixw9wn5ugmv/TeledeporteES.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
-#EXTINF:-1 tvg-name="AXN" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/axn-1.webp" group-title="Ecuador",AXN
-https://photocalltv.online/ecuador/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
-#EXTINF:-1 tvg-name="Space Perú" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/space.webp" group-title="Peru",Space Perú
+#EXTINF:-1 tvg-name="beIN Sports (Fuente 2)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/beinsports.webp" group-title="Colombia",beIN Sports (Fuente 2)
+https://play.cdn.enetres.net/6E5C615AA5FF4123ACAF0DAB57B7B8DC021/022/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
+#EXTINF:-1 tvg-name="beIN Sports (Fuente 3)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/beinsports.webp" group-title="Colombia",beIN Sports (Fuente 3)
+https://rmtv.akamaized.net/hls/live/2043153/rmtv-es-web/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
+#EXTINF:-1 tvg-name="ESPN2 (Fuente 1)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/espn2-1.webp" group-title="Ecuador",ESPN2 (Fuente 1)
+https://d1cctoeg0n48w5.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-mnixw9wn5ugmv/TeledeporteES.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
+#EXTINF:-1 tvg-name="ESPN2 (Fuente 2)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/espn2-1.webp" group-title="Ecuador",ESPN2 (Fuente 2)
+https://stream.oromar.tv/hls/oromartv_hi/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
+#EXTINF:-1 tvg-name="Space Perú (Fuente 1)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/space.webp" group-title="Peru",Space Perú (Fuente 1)
 https://luna-1-video.mediaserver.digital/exitosatv_233b-4b49-a726-5a451262/index.fmp4.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
-#EXTINF:-1 tvg-name="AMC Perú" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/amc.webp" group-title="Peru",AMC Perú
-https://photocalltv.online/peru/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
+#EXTINF:-1 tvg-name="Space Perú (Fuente 2)" tvg-logo="https://photocalltv.online/wp-content/uploads/2025/10/space.webp" group-title="Peru",Space Perú (Fuente 2)
+https://cdnhd.iblups.com/hls/777b4d4cc0984575a7d14f6ee57dbcaf7.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
