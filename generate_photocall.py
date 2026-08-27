@@ -136,4 +136,4 @@ def auto_scrape_all_photocall():
     print(f"🎉 Selesai! File 'photocall.m3u' berisi {valid_count} channel berhasil dibuat!")
 
 if __name__ == "__main__":
-    auto_generate_all_photocall()
+    generate_photocall()
