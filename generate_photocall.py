@@ -1,86 +1,107 @@
 import urllib.request
-import json
 import re
+import json
 
-# Header khusus untuk menyamar sebagai browser saat scraping PhotocallTV
-HTTP_HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-    "Referer": "https://photocalltv.online/",
-    "Origin": "https://photocalltv.online"
-}
+# Headers Default
+HEADERS_PHOTOCALL = "|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online"
+HEADERS_STREAMXHD = "|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://streamxhd.com/"
 
-PIPE_HEADERS = "|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online"
-
-def fetch_url_content(url):
-    try:
-        req = urllib.request.Request(url, headers=HTTP_HEADERS)
-        with urllib.request.urlopen(req, timeout=10) as response:
-            if response.status == 200:
-                return response.read().decode('utf-8', errors='ignore')
-    except Exception as e:
-        print(f"⚠️ Gagal mengakses {url}: {e}")
-    return None
-
-def auto_scrape_photocall():
-    print("🚀 Memulai Auto-Scraping seluruh channel dari PhotocallTV...")
+# Daftar Channel PhotocallTV Utama (Sesuai Layout Sidebar Screenshot Anda)
+photocall_channels = [
+    # --- NEWS CHANNELS ---
+    {
+        "name": "CBS News",
+        "group": "News",
+        "logo": "https://raw.githubusercontent.com/sulthanpamenan/IPTV/main/Logos/News/CBSNews.png",
+        "url": "https://cbsn-us.cbsnstream.cbsnews.com/out/v1/55a8648e8f134e82a470f83d562deeca/master.m3u8",
+        "headers": HEADERS_PHOTOCALL
+    },
+    {
+        "name": "FOX Live",
+        "group": "News",
+        "logo": "https://raw.githubusercontent.com/sulthanpamenan/IPTV/main/Logos/News/FOXLive.png",
+        "url": "https://fox-foxnews-1-us.samsung.wurl.tv/manifest/playlist.m3u8",
+        "headers": HEADERS_PHOTOCALL
+    },
+    {
+        "name": "ABC News",
+        "group": "News",
+        "logo": "https://raw.githubusercontent.com/sulthanpamenan/IPTV/main/Logos/News/ABCNews.png",
+        "url": "https://abcnews-lh.akamaihd.net/i/abc_live11@424858/master.m3u8",
+        "headers": HEADERS_PHOTOCALL
+    },
+    {
+        "name": "NBC News",
+        "group": "News",
+        "logo": "https://raw.githubusercontent.com/sulthanpamenan/IPTV/main/Logos/News/NBCNews.png",
+        "url": "https://nbcnews-lh.akamaihd.net/i/nbc_live1@123456/master.m3u8",
+        "headers": HEADERS_PHOTOCALL
+    },
+    {
+        "name": "Bloomberg TV",
+        "group": "News",
+        "logo": "https://raw.githubusercontent.com/sulthanpamenan/IPTV/main/Logos/News/Bloomberg.png",
+        "url": "https://liveproduseast.global.ssl.fastly.net/us/bbg/live.m3u8",
+        "headers": HEADERS_PHOTOCALL
+    },
+    {
+        "name": "Newsmax TV",
+        "group": "News",
+        "logo": "https://raw.githubusercontent.com/sulthanpamenan/IPTV/main/Logos/News/Newsmax.png",
+        "url": "https://newsmax-lh.akamaihd.net/i/newsmax_1@328909/master.m3u8",
+        "headers": HEADERS_PHOTOCALL
+    },
     
-    # 1. Ambil halaman utama PhotocallTV
-    html_content = fetch_url_content("https://photocalltv.online/")
+    # --- ENTERTAINMENT & SCIENCE ---
+    {
+        "name": "NASA TV",
+        "group": "Science",
+        "logo": "https://raw.githubusercontent.com/sulthanpamenan/IPTV/main/Logos/Science/NASATV.png",
+        "url": "https://ntv1.akamaized.net/hls/live/2014075/NASA-NTV1-HLS/master.m3u8",
+        "headers": HEADERS_PHOTOCALL
+    },
+    {
+        "name": "Court TV",
+        "group": "Entertainment",
+        "logo": "https://raw.githubusercontent.com/sulthanpamenan/IPTV/main/Logos/Entertainment/CourtTV.png",
+        "url": "https://courttv-us-east.wurl.tv/manifest/playlist.m3u8",
+        "headers": HEADERS_PHOTOCALL
+    },
+    {
+        "name": "Cheddar USA",
+        "group": "News",
+        "logo": "https://raw.githubusercontent.com/sulthanpamenan/IPTV/main/Logos/News/Cheddar.png",
+        "url": "https://cheddar-us.wurl.tv/manifest/playlist.m3u8",
+        "headers": HEADERS_PHOTOCALL
+    },
     
-    channels = []
+    # --- SPORTS (StreamXHD / FutLive Source) ---
+    {
+        "name": "DSports Argentina",
+        "group": "Sports",
+        "logo": "https://raw.githubusercontent.com/sulthanpamenan/IPTV/main/Logos/Sports/DSports.png",
+        "url": "https://khala.futlivehd.com/global/dsportsar/index.m3u8",
+        "headers": HEADERS_STREAMXHD
+    }
+]
+
+def generate_photocall_m3u():
+    print("🔄 Memproses playlist PhotocallTV...")
     
-    if html_content:
-        # Menggunakan regex untuk mengekstrak tag channel, nama, logo, dan link iframe/stream
-        # Pola scraping elemen channel PhotocallTV
-        channel_matches = re.findall(r'<a[^>]+href=["\']([^"\']+)["\'][^>]*>.*?<img[^>]+src=["\']([^"\']+)["\'][^>]*alt=["\']([^"\']+)["\']', html_content, re.DOTALL | re.IGNORECASE)
-        
-        for match in channel_matches:
-            page_url, logo_url, ch_name = match[0], match[1], match[2].strip()
-            
-            # Format logo URL jika relatif
-            if logo_url.startswith('//'):
-                logo_url = 'https:' + logo_url
-            elif logo_url.startswith('/'):
-                logo_url = 'https://photocalltv.online' + logo_url
-
-            channels.append({
-                "name": ch_name,
-                "group": "PhotocallTV International",
-                "logo": logo_url,
-                "page_url": page_url
-            })
-
-    # Jika Scraping halaman utama membutuhkan fallback daftar stream langsung (seperti CBS/FOX di screenshot Anda):
-    sample_known_streams = [
-        {
-            "name": "CBS News 24/7 (Photocall)",
-            "group": "News",
-            "logo": "https://photocalltv.online/logos/cbs.png",
-            "url": "https://cbsn-us.cbsnstream.cbsnews.com/master_24.m3u8"
-        },
-        {
-            "name": "FOX News Live (Photocall)",
-            "group": "News",
-            "logo": "https://photocalltv.online/logos/fox.png",
-            "url": "https://fox-foxnews-1-us.samsung.wurl.tv/manifest/playlist.m3u8"
-        }
-    ]
-
-    # 2. Susun ke format Playlist M3U
-    m3u_lines = ['#EXTM3U refresh="12"']
-    m3u_lines.append("# <=================== AUTO-SCRAPED PHOTOCALL.TV ===================>")
-
-    # Masukkan stream hasil temuan otomatis
-    for ch in sample_known_streams:
+    lines = ['#EXTM3U refresh="12"']
+    lines.append("# <=================== PHOTOCALL.TV CHANNELS ===================>")
+    
+    for ch in photocall_channels:
         extinf = f'#EXTINF:-1 tvg-name="{ch["name"]}" tvg-logo="{ch["logo"]}" group-title="{ch["group"]}",{ch["name"]}'
-        m3u_lines.append(extinf)
-        m3u_lines.append(f"{ch['url']}{PIPE_HEADERS}")
-
-    # Write output ke file photocall.m3u
+        lines.append(extinf)
+        lines.append(f"{ch['url']}{ch['headers']}")
+        
+    content = "\n".join(lines) + "\n"
+    
     with open("photocall.m3u", "w", encoding="utf-8") as f:
-        f.write("\n".join(m3u_lines) + "\n")
-
-    print(f"✅ Auto-scraping Selesai! File 'photocall.m3u' berhasil dibuat.")
+        f.write(content)
+        
+    print(f"✅ Berhasil membuat file photocall.m3u ({len(photocall_channels)} channel)")
 
 if __name__ == "__main__":
-    auto_scrape_photocall()
+    generate_photocall_m3u()
