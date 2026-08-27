@@ -1,0 +1,6 @@
+#EXTM3U refresh="12"
+# <=================== AUTO-SCRAPED PHOTOCALL.TV ===================>
+#EXTINF:-1 tvg-name="CBS News 24/7 (Photocall)" tvg-logo="https://photocalltv.online/logos/cbs.png" group-title="News",CBS News 24/7 (Photocall)
+https://cbsn-us.cbsnstream.cbsnews.com/master_24.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
+#EXTINF:-1 tvg-name="FOX News Live (Photocall)" tvg-logo="https://photocalltv.online/logos/fox.png" group-title="News",FOX News Live (Photocall)
+https://fox-foxnews-1-us.samsung.wurl.tv/manifest/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://photocalltv.online/&Origin=https://photocalltv.online
