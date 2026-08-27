@@ -1,8 +1,8 @@
-name: Auto Update PhotocallTV Playlist
+name: Auto Update IPTV Playlists
 
 on:
   schedule:
-    - cron: '0 */12 * * *' # Berjalan otomatis 2x sehari
+    - cron: '0 */12 * * *'
   workflow_dispatch:
 
 jobs:
