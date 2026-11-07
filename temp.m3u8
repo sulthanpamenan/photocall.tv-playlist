@@ -3,6 +3,9 @@
 https://drive.google.com/uc?export=download&id=1_aPxkg69ukhdXGRFMrGY_PMQmDU6Vrly&usp
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/General/RTM_TV1.png" group-title="General",TV1
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36&Origin=https://rtmklik.rtm.gov.my&Referer=https://rtmklik.rtm.gov.my/
 https://d25tgymtnqzu8s.cloudfront.net/live/media0/tv1/HLS/tv1.m3u8?id=1
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/General/RTM_TV2.png" group-title="General",TV2
